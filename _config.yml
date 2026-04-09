@@ -1,0 +1,87 @@
+---
+booktitle: Proceedings of AAAI 2026 Workshop on Bias in Multimodal AI
+shortname: BiasMMAI
+volume: '332'
+year: '2026'
+start: &1 2026-01-25
+end: 2026-01-25
+published: 2026-04-09
+conference_number: '1'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: BiasMMAI-2026
+month: 0
+cycles: false
+bibtex_editor: Han, Soyeon Caren and Cabral, Rina Carines
+editor:
+- given: Soyeon Caren
+  family: Han
+- given: Rina Carines
+  family: Cabral
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of AAAI 2026 Workshop on Bias in Multimodal AI
+    Held in Singapore Expo, Tampines, Singapore on 25 January 2026
+
+  Published as Volume 332 by the Proceedings of Machine Learning Research on 09 April 2026.
+
+  Volume Edited by:
+    Soyeon Caren Han
+    Rina Carines Cabral
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 25 Jan
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v332"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v332
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v332
+email: ''
+conference:
+  name: 'AAAI 2026 Workshop on Bias in Multimodal AI: Representation, Risk, and Repair'
+  url: https://sites.google.com/view/biasinmm-aaai2026
+  location: Singapore Expo, Tampines, Singapore
+  dates:
+  - *1
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: biasmmai26_clean.bib
+# Site settings
+# Original source:  biasmmai26_clean.bib
